@@ -23,7 +23,7 @@
         android:layout_height="30dp"
         android:layout_marginTop="16dp"
         android:background="@null"
-
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:drawablePadding="20dp"
         android:fontFamily="@font/chivo_light"
         android:gravity="center"
@@ -90,7 +90,8 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.499" />
 
-    <TextView
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="286dp"
         android:layout_height="40dp"
         android:background="@null"
@@ -99,8 +100,10 @@
         android:gravity="center"
         android:text="@string/zaboravili_ste_lozinku"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="16sp"
+        app:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
@@ -129,9 +132,10 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42" />
 
-    <TextView
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="342dp"
-        android:layout_height="51dp"
+        android:layout_height="60dp"
         android:layout_marginBottom="16dp"
         android:background="@null"
         android:drawablePadding="20dp"
@@ -140,8 +144,10 @@
         android:importantForAutofill="no"
         android:text="@string/Registrirajte_se_ako_nemate_račun"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="17sp"
+        app:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
