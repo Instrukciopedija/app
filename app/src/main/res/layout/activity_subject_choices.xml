@@ -28,13 +28,24 @@
             android:layout_height="80dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="40dp"
-            android:background="@drawable/button_physics"
+            android:background="@drawable/button_one"
             android:drawableTop="@drawable/ic_atom"
             app:backgroundTint="add"
             android:text="Fizika"
             android:textAllCaps="false"
             android:fontFamily="@font/chivo_regular"/>
 
+        <Button
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/button_one"
+            android:drawableTop="@drawable/ic_atom"
+            app:backgroundTint="add"
+            android:text="Fizika"
+            android:textAllCaps="false"
+            android:fontFamily="@font/chivo_regular"/>
     </LinearLayout>
 
 
