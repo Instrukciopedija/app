@@ -9,4 +9,7 @@
     <string name="todo">TODO</string>
     <string name="ne_sada">ne sada</string>
     <string name="todo1">TODO</string>
+    <string name="izaberite_predmete">Izaberite predmete</string>
+    <string name="fizika">Fizika</string>
+    <string name="lektire">Lektire</string>
 </resources>

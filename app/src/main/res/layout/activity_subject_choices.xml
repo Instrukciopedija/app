@@ -18,7 +18,7 @@
             android:layout_marginTop="80dp"
             android:fontFamily="@font/chivo_light"
             android:gravity="center_horizontal"
-            android:text="Izaberite predmete"
+            android:text="@string/izaberite_predmete"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
@@ -31,9 +31,10 @@
             android:background="@drawable/button_one"
             android:drawableTop="@drawable/ic_atom"
             app:backgroundTint="add"
-            android:text="Fizika"
+            android:text="@string/fizika"
             android:textAllCaps="false"
-            android:fontFamily="@font/chivo_regular"/>
+            android:fontFamily="@font/chivo_regular"
+            android:layout_marginStart="60dp" />
 
         <Button
             android:layout_width="80dp"
@@ -43,9 +44,10 @@
             android:background="@drawable/button_two"
             android:drawableTop="@drawable/ic_quill_drawing_a_line"
             app:backgroundTint="add"
-            android:text="Lektire"
+            android:text="@string/lektire"
             android:textAllCaps="false"
-            android:fontFamily="@font/chivo_regular"/>
+            android:fontFamily="@font/chivo_regular"
+            android:layout_marginStart="60dp" />
     </LinearLayout>
 
 
