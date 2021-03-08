@@ -18,7 +18,7 @@
             android:layout_marginTop="80dp"
             android:fontFamily="@font/chivo_light"
             android:gravity="center_horizontal"
-            android:text="@string/izaberite_predmete"
+            android:text="Izaberite predmete"
             android:textAlignment="center"
             android:textColor="@color/white"
             android:textSize="25sp" />
@@ -26,31 +26,26 @@
         <Button
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/button_one"
             android:drawableTop="@drawable/ic_atom"
-            android:fontFamily="@font/chivo_regular"
-            android:shadowColor="#000000"
-            android:shadowDy="200"
-            android:text="@string/fizika"
-            android:textSize="14sp"
+            app:backgroundTint="add"
+            android:text="Fizika"
             android:textAllCaps="false"
-            />
+            android:fontFamily="@font/chivo_regular"/>
 
         <Button
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/button_two"
             android:drawableTop="@drawable/ic_quill_drawing_a_line"
-            android:fontFamily="@font/chivo_regular"
-            android:text="@string/lektire"
-            android:textSize="12sp"
-            android:textAllCaps="false" />
+            app:backgroundTint="add"
+            android:text="Lektire"
+            android:textAllCaps="false"
+            android:fontFamily="@font/chivo_regular"/>
     </LinearLayout>
 
 
