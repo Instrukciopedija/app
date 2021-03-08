@@ -9,11 +9,6 @@
 
 
 
-
-
-
-
-
     <View
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -23,7 +18,8 @@
         android:layout_marginStart="8dp"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="11dp"
-        android:background="@drawable/ic_back" />
+        android:background="@drawable/ic_back"
+        tools:ignore="RtlHardcoded" />
 
     <View
         android:layout_width="242dp"
@@ -39,7 +35,8 @@
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"
         android:background="@drawable/input_bg"
-        android:elevation="8sp" />
+        android:elevation="8sp"
+        tools:ignore="RtlHardcoded" />
 
     <View
         android:layout_width="238dp"
@@ -55,7 +52,8 @@
         android:layout_marginEnd="-1dp"
         android:layout_marginRight="-1dp"
         android:elevation="8sp"
-        android:background="@drawable/input_bg" />
+        android:background="@drawable/input_bg"
+        tools:ignore="RtlHardcoded" />
 
 
     <View
@@ -71,7 +69,8 @@
         android:layout_marginTop="331dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="86dp"
-        android:background="@drawable/input_bg" />
+        android:background="@drawable/input_bg"
+        tools:ignore="RtlHardcoded" />
 
     <View
         android:layout_width="240dp"
@@ -89,7 +88,7 @@
         android:elevation="8sp"
         android:background="@drawable/input_bg"
 
-        />
+        tools:ignore="RtlHardcoded" />
 
     <View
         android:layout_width="wrap_content"
@@ -106,7 +105,8 @@
         android:layout_marginEnd="86dp"
         android:layout_marginRight="86dp"
         android:elevation="8sp"
-        android:background="@drawable/input_bg" />
+        android:background="@drawable/input_bg"
+        tools:ignore="RtlHardcoded" />
 
     <TextView
         android:id="@+id/textView"
@@ -129,7 +129,8 @@
         android:gravity="center"
         android:text="Izradite korisnički račun"
         android:textColor="#FFFFFF"
-        android:textSize="26sp" />
+        android:textSize="26sp"
+        tools:ignore="HardcodedText,RtlHardcoded" />
 
 
     <EditText
@@ -151,7 +152,8 @@
         android:textColor="#828282"
         android:textColorHint="#828282"
         android:textSize="14sp"
-        android:translationZ="90dp"/>
+        android:translationZ="90dp"
+        tools:ignore="Autofill,HardcodedText,RelativeOverlap,RtlHardcoded" />
 
     <EditText
         android:id="@+id/email_user"
@@ -175,7 +177,8 @@
         android:inputType="textPersonName"
         android:textColor="#828282"
         android:textColorHint="#828282"
-        android:translationZ="90dp"/>
+        android:translationZ="90dp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
 
     <EditText
         android:id="@+id/telefon_user"
@@ -198,7 +201,8 @@
         android:inputType="phone"
         android:textColor="#828282"
         android:translationZ="90dp"
-        android:textColorHint="#828282" />
+        android:textColorHint="#828282"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
 
     <Button
@@ -231,7 +235,8 @@
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
+        app:layout_constraintVertical_bias="0.42"
+        tools:ignore="RtlHardcoded" />
 
     <EditText
         android:id="@+id/lokacija_user"
@@ -253,7 +258,8 @@
         android:inputType="textPostalAddress"
         android:textColor="#828282"
         android:textColorHint="#828282"
-        android:translationZ="90dp"/>
+        android:translationZ="90dp"
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -267,31 +273,31 @@
         android:layout_marginTop="178dp"
         android:background="@drawable/input_bg"
         android:elevation="8sp"
-        android:outlineAmbientShadowColor="@color/black"/>
-
-
+        android:outlineAmbientShadowColor="@color/black"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        tools:targetApi="p" />
 
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="55dp"
-        android:layout_height="11dp"
+        android:layout_width="59dp"
+        android:layout_height="13dp"
         android:layout_alignStart="@+id/imageButton"
         android:layout_alignLeft="@+id/imageButton"
         android:layout_alignEnd="@+id/imageButton"
         android:layout_alignRight="@+id/imageButton"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="236dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="237dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
         android:gravity="center"
-        android:text="Dodajte sliku"
+        android:hint="Dodajte sliku"
         android:textColor="#828282"
-        android:textSize="8sp"
-        android:translationZ="90dp"/>
-
+        android:textSize="10sp"
+        android:translationZ="90dp"
+        tools:ignore="HardcodedText,RtlHardcoded,SmallSp" />
 
     <EditText
         android:id="@+id/lozinka_user"
@@ -315,7 +321,7 @@
         android:textColor="#828282"
         android:textColorHint="#828282"
         android:translationZ="90dp"
-        />
+        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -333,76 +339,25 @@
         android:layout_marginRight="12dp"
         android:translationZ="90dp"
         app:srcCompat="@drawable/ic_user"
-        tools:ignore="VectorDrawableCompat" />
+        tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
 
     <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/imageView2"
+        ž
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_alignStart="@+id/null"
+        android:layout_alignLeft="@id/textView"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
         android:layout_marginTop="282dp"
-        android:layout_marginEnd="15dp"
-        android:layout_marginRight="15dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
         android:layout_toStartOf="@+id/telefon_user"
         android:layout_toLeftOf="@+id/telefon_user"
         android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_phone_call"
-        tools:ignore="VectorDrawableCompat" />
-
-    <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView3"
-        android:layout_alignLeft="@+id/imageView3"
-        android:layout_alignEnd="@+id/imageView3"
-        android:layout_alignRight="@+id/imageView3"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="294dp"
-        app:srcCompat="@drawable/ic_email"
-        tools:ignore="VectorDrawableCompat" />
-
-    <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView4"
-        android:layout_alignLeft="@+id/imageView4"
-        android:layout_alignEnd="@+id/imageView4"
-        android:layout_alignRight="@+id/imageView4"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="229dp"
-        android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_placeholder"
-        tools:ignore="VectorDrawableCompat" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/imageView5"
-        android:layout_alignLeft="@+id/imageView5"
-        android:layout_alignEnd="@+id/imageView5"
-        android:layout_alignRight="@+id/imageView5"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:layout_marginBottom="162dp"
-        android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_key"
-        tools:ignore="VectorDrawableCompat" />
+        app:srcCompat="@drawable/ic_phone_call" />
 
 
 </RelativeLayout>
