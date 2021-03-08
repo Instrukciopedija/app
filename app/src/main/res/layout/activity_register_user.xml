@@ -219,7 +219,7 @@
         android:background="@drawable/custom_button"
         android:elevation="8sp"
         android:fontFamily="@font/chivo_light"
-        android:text="@string/registriraj_se_kao_instruktor"
+        android:text="@string/registriraj_se_kao_korisnik"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="13sp"

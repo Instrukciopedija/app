@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fillViewport="true"
@@ -30,10 +31,10 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/button_one"
             android:drawableTop="@drawable/ic_atom"
-            app:backgroundTint="add"
+            android:fontFamily="@font/chivo_regular"
             android:text="Fizika"
             android:textAllCaps="false"
-            android:fontFamily="@font/chivo_regular"/>
+            app:backgroundTint="#00FFFFFF" />
 
         <Button
             android:layout_width="80dp"
@@ -42,10 +43,11 @@
             android:layout_marginTop="40dp"
             android:background="@drawable/button_two"
             android:drawableTop="@drawable/ic_quill_drawing_a_line"
-            app:backgroundTint="add"
+            android:fontFamily="@font/chivo_regular"
             android:text="Lektire"
             android:textAllCaps="false"
-            android:fontFamily="@font/chivo_regular"/>
+            app:backgroundTint="#00FFFFFF"
+            tools:ignore="HardcodedText" />
     </LinearLayout>
 
 
