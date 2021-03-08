@@ -8,6 +8,23 @@
     tools:context=".RegisterUserActivity">
 
 
+
+
+
+
+
+
+    <View
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/ic_back" />
+
     <View
         android:layout_width="242dp"
         android:layout_height="48dp"
@@ -21,7 +38,8 @@
         android:layout_marginTop="462dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="85dp"
-        android:background="@drawable/input_bg" />
+        android:background="@drawable/input_bg"
+        android:elevation="8sp" />
 
     <View
         android:layout_width="238dp"
@@ -36,6 +54,7 @@
         android:layout_marginTop="396dp"
         android:layout_marginEnd="-1dp"
         android:layout_marginRight="-1dp"
+        android:elevation="8sp"
         android:background="@drawable/input_bg" />
 
 
@@ -67,7 +86,9 @@
         android:layout_marginTop="268dp"
         android:layout_marginEnd="85dp"
         android:layout_marginRight="86dp"
+        android:elevation="8sp"
         android:background="@drawable/input_bg"
+
         />
 
     <View
@@ -84,6 +105,7 @@
         android:layout_marginTop="205dp"
         android:layout_marginEnd="86dp"
         android:layout_marginRight="86dp"
+        android:elevation="8sp"
         android:background="@drawable/input_bg" />
 
     <TextView
@@ -128,7 +150,8 @@
         android:inputType="textPersonName"
         android:textColor="#828282"
         android:textColorHint="#828282"
-        android:textSize="14sp" />
+        android:textSize="14sp"
+        android:translationZ="90dp"/>
 
     <EditText
         android:id="@+id/email_user"
@@ -151,7 +174,8 @@
         android:hint="E-mail"
         android:inputType="textPersonName"
         android:textColor="#828282"
-        android:textColorHint="#828282" />
+        android:textColorHint="#828282"
+        android:translationZ="90dp"/>
 
     <EditText
         android:id="@+id/telefon_user"
@@ -173,6 +197,7 @@
         android:hint="Telefon"
         android:inputType="phone"
         android:textColor="#828282"
+        android:translationZ="90dp"
         android:textColorHint="#828282" />
 
 
@@ -192,11 +217,13 @@
         android:layout_marginRight="85dp"
         android:layout_marginBottom="84dp"
         android:background="@drawable/custom_button"
+        android:elevation="8sp"
         android:fontFamily="@font/chivo_light"
         android:text="@string/registriraj_se_kao_instruktor"
         android:textAllCaps="false"
         android:textColor="@color/white"
         android:textSize="13sp"
+        android:translationZ="90dp"
         app:backgroundTint="#14000000"
         app:backgroundTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -225,7 +252,8 @@
         android:hint="Lokacija"
         android:inputType="textPostalAddress"
         android:textColor="#828282"
-        android:textColorHint="#828282" />
+        android:textColorHint="#828282"
+        android:translationZ="90dp"/>
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -237,7 +265,32 @@
         android:layout_marginStart="85dp"
         android:layout_marginLeft="85dp"
         android:layout_marginTop="178dp"
-        tools:srcCompat="@tools:sample/avatars" />
+        android:background="@drawable/input_bg"
+        android:elevation="8sp"
+        android:outlineAmbientShadowColor="@color/black"/>
+
+
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="55dp"
+        android:layout_height="11dp"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="236dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Dodajte sliku"
+        android:textColor="#828282"
+        android:textSize="8sp"
+        android:translationZ="90dp"/>
 
 
     <EditText
@@ -249,17 +302,38 @@
         android:layout_alignEnd="@+id/lokacija_user"
         android:layout_alignRight="@+id/lokacija_user"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginLeft="1dp"
         android:layout_marginTop="20dp"
-        android:layout_marginEnd="-1dp"
-        android:layout_marginRight="-1dp"
-        android:layout_marginBottom="149dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:layout_marginBottom="147dp"
         android:background="@null"
         android:ems="10"
         android:hint="Lozinka"
         android:inputType="textPassword"
         android:textColor="#828282"
-        android:textColorHint="#828282" />
+        android:textColorHint="#828282"
+        android:translationZ="90dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="51dp"
+        android:layout_height="51dp"
+        android:layout_alignStart="@+id/imageButton"
+        android:layout_alignLeft="@+id/imageButton"
+        android:layout_alignEnd="@+id/imageButton"
+        android:layout_alignRight="@+id/imageButton"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:translationZ="90dp"
+        app:srcCompat="@drawable/ic_user"
+        tools:ignore="VectorDrawableCompat" />
+
 
 </RelativeLayout>
