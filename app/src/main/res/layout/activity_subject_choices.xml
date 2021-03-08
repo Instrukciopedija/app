@@ -26,28 +26,31 @@
         <Button
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/button_one"
             android:drawableTop="@drawable/ic_atom"
-            app:backgroundTint="add"
-            android:text="@string/fizika"
-            android:textAllCaps="false"
             android:fontFamily="@font/chivo_regular"
-            android:layout_marginStart="60dp" />
+            android:shadowColor="#000000"
+            android:shadowDy="200"
+            android:text="@string/fizika"
+            android:textSize="14sp"
+            android:textAllCaps="false"
+            />
 
         <Button
             android:layout_width="80dp"
             android:layout_height="80dp"
+            android:layout_marginStart="60dp"
             android:layout_marginLeft="60dp"
             android:layout_marginTop="40dp"
             android:background="@drawable/button_two"
             android:drawableTop="@drawable/ic_quill_drawing_a_line"
-            app:backgroundTint="add"
-            android:text="@string/lektire"
-            android:textAllCaps="false"
             android:fontFamily="@font/chivo_regular"
-            android:layout_marginStart="60dp" />
+            android:text="@string/lektire"
+            android:textSize="12sp"
+            android:textAllCaps="false" />
     </LinearLayout>
 
 

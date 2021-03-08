@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Instrukciopedijaapp">
-        <activity android:name=".SubjectChoicesActivity"></activity>
+        <activity android:name=".RegisterUserActivity"></activity>
+        <activity android:name=".SubjectChoicesActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".SplashScreenActivity">
             <intent-filter>
