@@ -154,7 +154,7 @@
     <Button
         android:id="@+id/button_reg_korisnik"
         android:layout_width="276dp"
-        android:layout_height="51dp"
+        android:layout_height="20dp"
         android:layout_below="@+id/registracija_instruktora_layout"
         android:layout_alignStart="@+id/registracija_instruktora_layout"
         android:layout_alignEnd="@+id/registracija_instruktora_layout"
@@ -165,7 +165,7 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="0dp"
         android:layout_marginRight="0dp"
-        android:layout_marginBottom="102dp"
+        android:layout_marginBottom="100dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/chivo_light"
         android:text="@string/dalje"
@@ -174,11 +174,7 @@
         android:textSize="23sp"
         app:backgroundTint="#14000000"
         app:backgroundTintMode="add"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42" />
 
 
