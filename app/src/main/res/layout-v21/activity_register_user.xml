@@ -9,6 +9,92 @@
 
 
 
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180"
+        android:background="@drawable/input_bg"
+        android:src="@drawable/ic_user"
+        android:padding="5dp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/height_286"
+        android:layout_marginLeft="@dimen/height_58"
+        android:layout_marginRight="@dimen/height_58"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_58"
+            android:layout_marginTop=""
+            android:background="@drawable/input_bg"
+            android:hint="E-mail"
+            android:fontFamily="@font/chivo_light"
+            android:paddingLeft="16dp"
+            android:drawableLeft="@drawable/ic_email"
+            android:drawablePadding="16dp"
+            android:inputType="text"
+            android:elevation="5sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_58"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_bg"
+            android:hint="Telefon"
+            android:fontFamily="@font/chivo_light"
+            android:paddingLeft="16dp"
+            android:drawableLeft="@drawable/ic_phone_call"
+            android:drawablePadding="16dp"
+            android:inputType="phone"
+            android:elevation="5sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_58"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_bg"
+            android:hint="Lokacija"
+            android:fontFamily="@font/chivo_light"
+            android:paddingLeft="16dp"
+            android:drawableLeft="@drawable/ic_placeholder"
+            android:drawablePadding="16dp"
+            android:inputType="textPostalAddress"
+            android:elevation="5sp"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/height_58"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_bg"
+            android:hint="Lozinka"
+            android:fontFamily="@font/chivo_light"
+            android:paddingLeft="16dp"
+            android:drawableLeft="@drawable/ic_key"
+            android:drawablePadding="16dp"
+            android:inputType="textPassword"
+            android:elevation="5sp"
+
+
+
+
+            />
+
+    </LinearLayout>
+
     <View
         android:layout_width="50dp"
         android:layout_height="50dp"
@@ -19,134 +105,6 @@
         android:layout_marginLeft="8dp"
         android:layout_marginTop="11dp"
         android:background="@drawable/ic_back"
-        tools:ignore="RtlHardcoded" />
-
-    <View
-        android:layout_width="244dp"
-        android:layout_height="48dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="462dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:background="@drawable/input_bg"
-        android:elevation="8sp"
-
-        tools:ignore="RtlHardcoded" />
-
-
-    <View
-        android:layout_width="236dp"
-        android:layout_height="47dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="332dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:background="@drawable/input_bg"
-        android:elevation="8sp"
-        android:minWidth="244dp"
-        tools:ignore="RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="411dp"
-        android:layout_marginBottom="301dp"
-        android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_placeholder"
-        tools:ignore="RtlHardcoded,VectorDrawableCompat" />
-
-    <EditText
-        android:id="@+id/lokacija_user"
-        android:layout_width="244dp"
-        android:layout_height="48dp"
-        android:layout_alignStart="@+id/telefon_user"
-        android:layout_alignLeft="@+id/telefon_user"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:layout_marginBottom="292dp"
-        android:background="@null"
-        android:ems="10"
-        android:hint="Lokacija"
-        android:inputType="textPostalAddress"
-        android:textColor="#828282"
-        android:textColorHint="#828282"
-        android:translationZ="90dp"
-        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
-
-    <View
-        android:layout_width="244dp"
-        android:layout_height="48dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="84dp"
-        android:layout_marginLeft="84dp"
-        android:layout_marginTop="394dp"
-        android:layout_marginEnd="86dp"
-        android:layout_marginRight="86dp"
-        android:background="@drawable/input_bg"
-        tools:ignore="RtlHardcoded" />
-
-    <View
-        android:layout_width="244dp"
-        android:layout_height="48dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="268dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:background="@drawable/input_bg"
-        android:elevation="8sp"
-
-        tools:ignore="RtlHardcoded" />
-
-    <View
-        android:layout_width="wrap_content"
-        android:layout_height="46dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginStart="169dp"
-        android:layout_marginLeft="169dp"
-        android:layout_marginTop="205dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:background="@drawable/input_bg"
-        android:elevation="8sp"
         tools:ignore="RtlHardcoded" />
 
 
@@ -173,75 +131,6 @@
         android:textColor="#FFFFFF"
         android:textSize="26sp"
         tools:ignore="HardcodedText,RtlHardcoded" />
-
-    <EditText
-        android:id="@+id/korisnicko_ime_user"
-        android:layout_width="144dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginTop="204dp"
-        android:layout_marginEnd="72dp"
-        android:layout_marginRight="72dp"
-        android:layout_marginBottom="483dp"
-        android:background="@null"
-        android:ems="10"
-        android:hint="Korisničko ime"
-        android:inputType="textPersonName"
-        android:textColor="#828282"
-        android:textColorHint="#828282"
-        android:textSize="14sp"
-        android:translationZ="90dp"
-        tools:ignore="Autofill,HardcodedText,RelativeOverlap,RtlHardcoded" />
-
-    <EditText
-        android:id="@+id/email_user"
-        android:layout_width="178dp"
-        android:layout_height="48dp"
-        android:layout_alignStart="@+id/korisnicko_ime_user"
-        android:layout_alignLeft="@+id/korisnicko_ime_user"
-        android:layout_alignParentTop="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="-47dp"
-        android:layout_marginLeft="-47dp"
-        android:layout_marginTop="331dp"
-        android:layout_marginEnd="-13dp"
-        android:layout_marginRight="-13dp"
-        android:layout_marginBottom="344dp"
-        android:background="@null"
-        android:ems="10"
-        android:hint="E-mail"
-        android:inputType="textPersonName"
-        android:textColor="#828282"
-        android:textColorHint="#828282"
-        android:translationZ="90dp"
-        tools:ignore="Autofill,HardcodedText,RtlHardcoded,TextFields" />
-
-    <EditText
-        android:id="@+id/telefon_user"
-        android:layout_width="wrap_content"
-        android:layout_height="48dp"
-        android:layout_alignStart="@+id/email_user"
-        android:layout_alignLeft="@+id/email_user"
-        android:layout_alignEnd="@+id/email_user"
-        android:layout_alignRight="@+id/email_user"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginEnd="3dp"
-        android:layout_marginRight="3dp"
-        android:layout_marginBottom="419dp"
-        android:background="@null"
-        android:ems="10"
-        android:hint="Telefon"
-        android:inputType="phone"
-        android:textColor="#828282"
-        android:textColorHint="#828282"
-        android:translationZ="90dp"
-        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
 
     <Button
         android:id="@+id/button_regInstruktor"
@@ -278,154 +167,22 @@
         app:layout_constraintVertical_bias="0.42"
         tools:ignore="RtlHardcoded" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="75dp"
-        android:layout_height="75dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="178dp"
-        android:background="@drawable/input_bg"
-        android:elevation="8sp"
-        android:outlineAmbientShadowColor="@color/black"
-        tools:ignore="ContentDescription,RtlHardcoded"
-        tools:targetApi="p" />
-
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="59dp"
-        android:layout_height="13dp"
-        android:layout_alignStart="@+id/imageButton"
-        android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignEnd="@+id/imageButton"
-        android:layout_alignRight="@+id/imageButton"
-        android:layout_alignParentTop="true"
-        android:layout_marginStart="8dp"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="237dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:gravity="center"
-        android:hint="Dodajte sliku"
-        android:textColor="#828282"
-        android:textSize="10sp"
-        android:translationZ="90dp"
-        tools:ignore="HardcodedText,RtlHardcoded,SmallSp" />
-
-    <EditText
-        android:id="@+id/lozinka_user"
-        android:layout_width="204dp"
-        android:layout_height="50dp"
-        android:layout_alignStart="@+id/lokacija_user"
-        android:layout_alignLeft="@+id/lokacija_user"
-        android:layout_alignEnd="@+id/lokacija_user"
-        android:layout_alignRight="@+id/lokacija_user"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginLeft="0dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginEnd="4dp"
-        android:layout_marginRight="4dp"
-        android:layout_marginBottom="223dp"
-        android:background="@null"
-        android:ems="10"
-        android:hint="Lozinka"
-        android:inputType="textPassword"
-        android:textColor="#828282"
-        android:textColorHint="#828282"
-        android:translationZ="90dp"
-        tools:ignore="Autofill,HardcodedText,RtlHardcoded" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="54dp"
-        android:layout_height="59dp"
-        android:layout_alignStart="@+id/imageButton"
-        android:layout_alignLeft="@+id/imageButton"
-        android:layout_alignEnd="@+id/imageButton"
-        android:layout_alignRight="@+id/imageButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="10dp"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="179dp"
-        android:layout_marginEnd="11dp"
-        android:layout_marginRight="11dp"
-        android:layout_marginBottom="493dp"
-        android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_user"
-        tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
-
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="wrap_content"
-        android:layout_height="21dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="100dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginTop="281dp"
-        android:layout_marginBottom="428dp"
-        android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_phone_call"
-        tools:ignore="ContentDescription,RtlHardcoded,VectorDrawableCompat" />
-
-    <ImageView
-        android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_centerVertical="true"
-        android:layout_marginStart="99dp"
-        android:layout_marginLeft="99dp"
-        android:layout_marginBottom="366dp"
-        app:srcCompat="@drawable/ic_email"
-        android:translationZ="90dp"
-        tools:ignore="VectorDrawableCompat" />
-
-    <ImageView
-        android:id="@+id/imageView9"
-        android:layout_width="wrap_content"
-        android:layout_height="27dp"
-
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="98dp"
-        android:layout_marginLeft="98dp"
-        android:layout_marginTop="474dp"
-        android:layout_marginEnd="12dp"
-        android:layout_marginRight="12dp"
-        android:layout_marginBottom="230dp"
-        android:layout_toStartOf="@+id/lozinka_user"
-        android:layout_toLeftOf="@+id/lozinka_user"
-        android:translationZ="90dp"
-        app:srcCompat="@drawable/ic_key"
-        tools:ignore="RtlHardcoded,UnknownId,VectorDrawableCompat" />
 
     <Button
         android:id="@+id/btn_regUser"
-        android:layout_width="244dp"
-        android:layout_height="wrap_content"
+        android:layout_width="275"
+        android:layout_height="50dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginStart="85dp"
-        android:layout_marginLeft="85dp"
-        android:layout_marginTop="548dp"
-        android:layout_marginEnd="85dp"
-        android:layout_marginRight="85dp"
-        android:layout_marginBottom="127dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="577dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="98dp"
         android:background="@drawable/custom_button"
+        android:elevation="5sp"
         android:fontFamily="@font/chivo_light"
         android:text="@string/registriraj_se_kao_korisnik"
         android:textAllCaps="false"
