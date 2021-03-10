@@ -37,39 +37,41 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
+        android:id="@+id/editText"
         android:layout_width="286dp"
         android:layout_height="50dp"
         android:layout_marginTop="223dp"
+        android:autofillHints=""
         android:backgroundTint="@color/white"
         android:drawableStart="@drawable/ic_envelope"
         android:drawablePadding="20dp"
-        android:hint="@string/e_mail"
         android:fontFamily="@font/chivo_light"
-        android:textColorHint="@color/white"
+        android:hint="@string/e_mail"
         android:inputType="textEmailAddress"
+        android:textColorHint="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:ignore="MissingConstraints"
-        android:autofillHints=""
         tools:targetApi="lollipop" />
 
     <EditText
+        android:id="@+id/editText2"
         android:layout_width="286dp"
         android:layout_height="50dp"
-        android:layout_marginTop="286dp"
+        android:autofillHints=""
         android:backgroundTint="@color/white"
         android:drawableStart="@drawable/ic_padlock"
         android:drawablePadding="20dp"
-        android:hint="@string/lozinka"
         android:fontFamily="@font/chivo_light"
-        android:textColorHint="@color/white"
+        android:hint="@string/lozinka"
         android:inputType="textPassword"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:textColorHint="@color/white"
+        app:layout_constraintEnd_toEndOf="@+id/editText"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText"
+        app:layout_constraintTop_toBottomOf="@+id/editText"
         tools:ignore="MissingConstraints"
-        android:autofillHints=""
         tools:targetApi="lollipop" />
 
     <Button
@@ -85,12 +87,14 @@
         app:backgroundTint="#14000000"
         app:backgroundTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintEnd_toEndOf="@+id/editText2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText2"
+        app:layout_constraintTop_toBottomOf="@+id/editText2"
+        app:layout_constraintVertical_bias="0.045" />
 
     <Button
+        android:id="@+id/button"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="286dp"
         android:layout_height="40dp"
@@ -105,18 +109,17 @@
         android:textSize="16sp"
         app:backgroundTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.568"
+        app:layout_constraintEnd_toEndOf="@+id/button_prijava"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button_prijava"
+        app:layout_constraintTop_toBottomOf="@+id/button_prijava"
+        app:layout_constraintVertical_bias="0.0"
         tools:ignore="MissingConstraints" />
 
     <Button
         android:id="@+id/button_regInstruktor"
         android:layout_width="286dp"
         android:layout_height="57dp"
-        android:layout_marginTop="350dp"
         android:background="@drawable/custom_button"
         android:fontFamily="@font/chivo_light"
         android:text="@string/registriraj_se_kao_instruktor"
@@ -126,11 +129,11 @@
         app:backgroundTint="#14000000"
         app:backgroundTintMode="add"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.42" />
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="0.457" />
 
     <Button
         android:id="@+id/reg"
