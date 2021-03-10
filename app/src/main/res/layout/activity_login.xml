@@ -136,22 +136,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.42" />
 
-    <EditText
+    <Button
+        android:id="@+id/reg_kao_kori"
+        style="@android:style/Widget.Holo.Button.Borderless"
         android:layout_width="286dp"
-        android:layout_height="50dp"
+        android:layout_height="70dp"
         android:layout_marginBottom="16dp"
-        android:background="@null"
         android:drawablePadding="20dp"
         android:fontFamily="@font/chivo_light"
         android:gravity="center"
         android:text="@string/Registrirajte_se_ako_nemate_račun"
         android:textAlignment="center"
+        android:textAllCaps="false"
         android:textColor="@color/white"
-        android:textSize="20sp"
+        android:textSize="19sp"
+        app:backgroundTint="#00FFFFFF"
+        app:iconTint="#00FFFFFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints" />
+         />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

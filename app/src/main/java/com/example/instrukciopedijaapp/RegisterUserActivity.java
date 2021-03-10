@@ -16,4 +16,5 @@ public class RegisterUserActivity extends AppCompatActivity {
     public void back_btn(View view){
         startActivity(new Intent(RegisterUserActivity.this, LoginActivity.class));
     }
+
 }

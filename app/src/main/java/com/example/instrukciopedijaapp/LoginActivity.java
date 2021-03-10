@@ -9,16 +9,18 @@ import android.widget.Button;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private Button btn_register;
 
+    Button reg_kao_kori;
+    Button btn_register_instruktor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
 
-        btn_register = (Button) findViewById(R.id.button_regInstruktor);
-        btn_register.setOnClickListener(new View.OnClickListener() {
+        Button btn_register_instruktor;
+        btn_register_instruktor = (Button) findViewById(R.id.button_regInstruktor);
+        btn_register_instruktor.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 openRegisterActivity();
@@ -26,9 +28,17 @@ public class LoginActivity extends AppCompatActivity {
         });
 
 
+
     }
-    public void openRegisterActivity(){
-        Intent register_intent = new Intent(this, RegisterUserActivity.class);
+    public void openRegisterActivity() {
+        Intent register_intent;
+        register_intent = new Intent(this, RegisterUserActivity.class);
         startActivity(register_intent);
     }
+
+
+
+
+
+
 }
