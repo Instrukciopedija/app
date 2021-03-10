@@ -10,7 +10,7 @@ import android.widget.Button;
 public class LoginActivity extends AppCompatActivity {
 
 
-    Button reg_kao_kori;
+    Button reg;
     Button btn_register_instruktor;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,19 @@ public class LoginActivity extends AppCompatActivity {
             public void onClick(View v) {
                 openRegisterActivity();
             }
+
+
+        });
+
+
+
+        reg = findViewById(R.id.reg);
+        reg.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent_reg = new Intent (LoginActivity.this, RegisterKorisnikActivity.class);
+                startActivity(intent_reg);
+            }
         });
 
 
@@ -35,7 +48,6 @@ public class LoginActivity extends AppCompatActivity {
         register_intent = new Intent(this, RegisterUserActivity.class);
         startActivity(register_intent);
     }
-
 
 
 

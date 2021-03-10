@@ -29,7 +29,9 @@
             android:background="@drawable/input_bg"
             android:elevation="5sp"
             android:padding="5dp"
-            android:src="@drawable/ic_user" />
+            android:src="@drawable/ic_user"
+            android:layout_alignLeft="@+id/registracija_korisnika_layout"
+            android:layout_alignRight="@+id/registracija_korisnika_layout" />
 
 
         <EditText
